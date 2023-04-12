@@ -1,0 +1,18 @@
+{
+    "parentMain": [
+        {
+            "text": "inbox",
+            "id": 1,
+            "isNode": true
+        },
+        {
+            "text": "Calendar"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 1,
+            "text": "inbox1"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "main": [
+        {
+            "text": "Inbox",
+            "id": "inbox",
+            "class": "node",
+            "icon": "fa fa-inbox fa-fw",
+            "nodes": []
+        },
+        {
+            "icon": "fa fa-archive fa-fw",
+            "text": "Drafts",
+            "nodes": [
+                {
+                    "icon": "fa fa-inbox fa-fw",
+                    "text": "Customers"
+                },
+                {
+                    "icon": "fa fa-inbox fa-fw",
+                    "text": "Co-Workers"
+                }
+            ]
+        },
+        {
+            "icon": "fa fa-calendar fa-fw",
+            "text": "Calendar"
+        },
+        {
+            "icon": "fa fa-address-book fa-fw",
+            "text": "Contacts"
+        },
+        {
+            "icon": "fa fa-trash fa-fw",
+            "text": "Deleted Items"
+        },
+        {
+            "icon": "fa fa-globe fa-fw",
+            "text": "Go to Google",
+            "class": "text-info",
+            "href": "https://google.com"
+        }
+    ],
+    "nodes": {
+        "inbox": [
+            {
+                "text": "Office",
+                "icon": "fa fa-inbox fa-fw",
+                "class": "node",
+                "id": "office",
+                "nodes": []
+            },
+            {
+                "icon": "fa fa-inbox fa-fw",
+                "text": "Others"
+            }
+        ],
+        "office": [
+            {
+                "icon": "fa fa-inbox fa-fw",
+                "text": "Customers"
+            },
+            {
+                "icon": "fa fa-inbox fa-fw",
+                "text": "Co-Workers"
+            }
+        ]
+    }
+}
